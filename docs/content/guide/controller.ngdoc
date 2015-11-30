@@ -222,7 +222,11 @@ more information about scope inheritance.
           <div ng-controller="GrandChildController">
             <p>Good {{timeOfDay}}, {{name}}!</p>
           </div>
+          
+          <p>Good {{timeOfDay}}, {{name}}!</p>
         </div>
+        
+        <p>Good {{timeOfDay}}, {{name}}!</p>
       </div>
     </div>
   </file>
